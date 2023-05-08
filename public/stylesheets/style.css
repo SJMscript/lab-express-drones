@@ -4,5 +4,114 @@ body {
 }
 
 a {
-  color: #00b7ff;
+  color: #eeeeee;
+  padding: 10px 15px 10px 15px;
+  background-color: rgb(120, 120, 214);
+  text-decoration: none;
+  border-radius: 30px;
+  text-align: center;
 }
+
+h1 {
+  font-size: 50px;
+  color: grey;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+p {
+  color: rgb(45, 45, 115);
+  font-size: 18px;
+  background-color: rgb(220, 196, 242);
+  border-radius: 30px;
+  text-align: center;
+  font-family: fantasy;
+  padding: 20px;
+  margin: 60px 100px 20px 100px;
+}
+
+.create-form form button {
+  color: #eeeeee;
+  padding: 10px 15px 10px 15px;
+  background-color: rgb(120, 120, 214);
+  text-decoration: none;
+  border-radius: 30px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-color: white;
+  border-style: solid;
+  margin-top: 20px;
+}
+
+.create-form form {
+  color: rgb(45, 45, 115);
+  background-color: rgb(220, 196, 242);
+  border-radius: 30px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin: 20px 100px 20px 100px;
+}
+
+.create-form h2 {
+  font-size: 50px;
+  color: grey;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.list-drone h2 {
+  font-size: 50px;
+  color: grey;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.list-drone div li {
+  font-size: 20px;
+  padding-top: 20px ;
+  color: rgb(45, 45, 115);
+  font-family: fantasy;
+  list-style-type: decimal;
+  padding-left: 10px;
+}
+
+.butt {
+  color: #eeeeee;
+  padding: 10px 15px 10px 15px;
+  background-color: rgb(120, 120, 214);
+  text-decoration: none;
+  border-radius: 30px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-color: white;
+  border-style: solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.butt a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+.list-drone div div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+#first-div {
+  margin: 20px 100px 20px 100px;
+  background-color: rgb(220, 196, 242);
+  border-radius: 30px;
+}
+
